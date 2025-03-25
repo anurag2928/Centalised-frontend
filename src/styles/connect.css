@@ -1,0 +1,57 @@
+.connect {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.connect .wallet-container {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.connect .wallet-container img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.connect .wallet-address {
+    font-size: 16px;
+    word-wrap: break-word;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.connect .copy-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.connect .copy-btn:hover {
+    background-color: #45a049;
+}
+
+.connect .buy-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.connect .buy-btn:hover {
+    background-color: #218838;
+}
+

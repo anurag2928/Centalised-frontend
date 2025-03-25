@@ -1,0 +1,59 @@
+/* Background for the page */
+.contactus-container {
+    background: -webkit-linear-gradient(left, #050a11, #153636);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Contact form styling */
+  .contactus-form {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    width: 70%;
+    max-width: 900px;
+  }
+  
+  .contactus-image {
+    text-align: center;
+  }
+  
+  .contactus-image img {
+    width: 100px;
+    margin: -50px 0 20px 0;
+    transform: rotate(29deg);
+  }
+  
+  .contactus-form h3 {
+    text-align: center;
+    color: #0062cc;
+    margin-bottom: 2rem;
+  }
+  
+  .contactus-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contactus-form .form-control {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+  }
+  
+  .contactus-form .btnContact {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .contactus-form .btnContact:hover {
+    background-color: #bd2130;
+  }
+  

@@ -1,0 +1,37 @@
+.basic-nft-page {
+  background-color: #222;
+  color: #fff;
+}
+
+.basic-nft-page .nft-card {
+  background-color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.basic-nft-page .nft-card:hover {
+  transform: scale(1.05);
+}
+
+.basic-nft-page .btn-buy {
+  background-color: #6c63ff;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.basic-nft-page .modal-content {
+  background: linear-gradient(145deg, #2d2d2d, #3a3a3a);
+  color: #fff;
+}
+
+.basic-nft-page .modal-header {
+  border-bottom: 1px solid #555;
+}
+
+.basic-nft-page .modal-footer {
+  border-top: 1px solid #555;
+}

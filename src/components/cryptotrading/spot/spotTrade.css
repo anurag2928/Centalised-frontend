@@ -1,0 +1,47 @@
+.spot-trade-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel,
+  .right-panel {
+    width: 25%;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .center-panel {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .order-book,
+  .market-trades,
+  .trading-form,
+  .open-orders {
+    margin-bottom: 20px;
+  }
+  
+  .orders {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .asks,
+  .bids {
+    width: 48%;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
