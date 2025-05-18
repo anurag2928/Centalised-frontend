@@ -51,7 +51,6 @@ const App = () => {
           <Route path="/" element={<Login setToken={setToken} />} />
           <Route path="/trade" element={<Trade />} />
           <Route path="/spottrade" element={<SpotTrade />} />
-          <Route path="/twspottrade" element={<SpotTradingPage />} />
 
 
           {/* Protected Routes */}
@@ -67,6 +66,7 @@ const App = () => {
           <Route path="/crypto" element={<ProtectedRoute element={<Crypto />} />} />
           <Route path="/coin/:coinId" element={<ProtectedRoute element={<Coin />} />} />
           <Route path="/news" element={<ProtectedRoute element={<News />} />} />
+          <Route path="/twspottrade" element={<ProtectedRoute element = {<SpotTradingPage />} />} />
 
         </Routes>
       </main>

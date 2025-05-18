@@ -123,12 +123,34 @@ const Header = () => {
                   </ul>
                 </li>
 
+
                 {/* Crypto Trading */}
-                <li className="nav-item">
+                <li className="nav-item dropdown">
+                  <button
+                    className="nav-link fw-semibold text-dark dropdown-toggle"
+                    id="withdrawalDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Crypto Market
+                  </button>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="withdrawalDropdown"
+                  >
+                    <li className="nav-item">
                   <Link className="nav-link fw-semibold text-dark" to="/crypto">
-                    Crypto trading
+                    Top Currencies
                   </Link>
                 </li>
+                    <li className="nav-item">
+                  <Link className="nav-link fw-semibold text-dark" to="/twspottrade">
+                    SpotTrade
+                  </Link>
+                </li>
+                  </ul>
+                </li>
+                
                 
 
                 {/* Products Dropdown */}
